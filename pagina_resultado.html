@@ -1,0 +1,3551 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class="js-focus-visible ext-strict" data-js-focus-visible=""><head>
+		<meta http-equiv="Pragma" content="no-cache">
+		<title>SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</title>
+		<link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js.jsf" type="text/javascript"></script><script type="text/javascript" src="/shared/jsBundles/jawr_loader.js"></script>
+		<script type="text/javascript">
+			JAWR.loader.style('/javascript/ext-2.0.a.1/resources/css/ext-all.css', 'all');
+			JAWR.loader.style('/css/public.css','all');
+		 	JAWR.loader.script('/bundles/js/sigaa_base.js');
+		 	JAWR.loader.script('/bundles/js/ext2_all.js');
+		</script> <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_086847611/javascript/ext-2.0.a.1/resources/css/ext-all.css">  <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_19031104/css/public.css">  <script type="text/javascript" src="/shared/jsBundles/gzip_404685069/bundles/js/sigaa_base.js"> </script>  <script type="text/javascript" src="/shared/jsBundles/gzip_203901949/bundles/js/ext2_all.js"> </script> 
+		<link rel="stylesheet" type="text/css" media="all" href="/sigaa/cssBundles/gzip_1933300981/public/css/public.css">
+
+		<link rel="stylesheet" type="text/css" media="all" href="/sigaa/cssBundles/gzip_N459730419/public/css/curso.css">
+
+		
+	</head>
+	
+	<body id="ext-gen6" class=" ext-safari">
+		<div id="container">
+		
+			
+			
+			<div id="container-inner">
+			
+				<div id="cabecalho">
+					<div id="identificacao">
+						<span class="ufrn">
+							UFPI › 
+							<a href="/sigaa/public" title="Página Inicial do SIGAA">
+							SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas
+							</a>
+						</span>
+						<span class="data">
+							 Teresina, 
+							 29 de Agosto de 
+							 2023 
+				
+						</span>
+					</div>
+					<br clear="all">
+					<span id="logoCursoAberto"></span>
+					<span id="tituloCursoAberto"></span>
+				</div>
+				
+	<style>
+		.colVagas{text-align: right !important;}
+	</style>
+	
+	
+	
+	
+	
+	
+	<div id="colEsq">
+			<div id="logo">
+		<p>
+			<span>
+			
+			
+			<img src="../images/departamento/brasao_ufpi.png">
+			
+			</span>
+		</p>
+	</div>
+	<br clear="all">
+	
+
+<form id="formMenu" name="formMenu" method="post" action="/sigaa/public/curso/turmas.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formMenu" value="formMenu">
+
+	<div id="menu-pri">
+	<ul>
+		<li><a href="portal.jsf?lc=pt_BR&amp;id=74268" class="apresentacao">Apresentação </a></li>
+		
+		<!-- Customização #25874 -->
+		<li><a href="administrativo.jsf?lc=pt_BR&amp;id=74268" class="adm">Corpo Administrativo</a></li>
+		
+		<li><a href="alunos.jsf?lc=pt_BR&amp;id=74268" class="alunos">Alunos Ativos</a></li>
+		<li><a href="calendario.jsf?lc=pt_BR&amp;id=74268" class="calendario">Calendário</a></li>
+		
+			<li><a href="curriculo.jsf?lc=pt_BR&amp;id=74268" class="curriculo">Currículos</a></li>
+		
+		<li><a href="documentos.jsf?lc=pt_BR&amp;id=74268" class="doc">Documentos</a></li>
+		<li><a href="turmas.jsf?lc=pt_BR&amp;id=74268" class="turma">Turmas</a></li>
+		<li><a href="monografias.jsf?lc=pt_BR&amp;id=74268" class="monografia">Monografias</a></li>
+		
+		<li><a href="ppp.jsf?lc=pt_BR&amp;id=74268" class="ppp">Projeto Político Pedagógico</a></li>
+		
+	</ul>		
+	</div>
+	
+	
+
+		<div id="menu-opcoes">
+		
+		<ul>
+			<li class="titulo">Outras Opções</li>
+				<li><a href="/sigaa/" class="especial">Acessar o SIGAA </a></li>
+				
+			<li class="pe"><a href=""></a></li>
+		</ul>
+		</div>
+
+	
+	
+
+	<div id="home-link">
+		<a href="/sigaa/public" title="Ir para o Portal Público do SIGAA">
+			Ir ao Menu Principal
+		</a>
+	</div>
+	
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id2">
+</form>
+<br clear="all">
+	</div>
+
+	<div id="colDir">
+		<div id="colDirTop">
+	
+<form id="formIdioma" name="formIdioma" method="post" action="/sigaa/public/curso/turmas.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formIdioma" value="formIdioma">
+
+		<h1>
+			CCN - CIÊNCIA DA COMPUTAÇÃO - Presencial - Teresina
+
+		</h1>
+		<span class="flags">
+			
+			
+			
+				<a href="?lc=en_US&amp;id=74268"><img src="../images/en-US.png" title="Versão Inglês"></a>
+			
+			&nbsp;
+		</span>
+		<br clear="all">
+		
+		<h2>
+			Curso&nbsp;
+			Nível&nbsp;
+			Graduação
+			
+			
+			 
+		</h2>
+		
+			
+			
+				<a href="/sigaa/public/centro/portal.jsf?lc=pt_BR
+				&amp;id=605" title="Clique para acessar o portal do centro.">
+				CENTRO DE CIENCIAS DA NATUREZA - CCN
+				</a>
+				
+			
+	<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id2">
+</form>
+</div>
+		<div id="colDirCorpo">
+		<!--  INÍCIO CONTEÚDO -->
+			<h1 class="turma">Turmas</h1>
+			
+<form id="form" name="form" method="post" action="/sigaa/public/curso/turmas.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="form" value="form">
+
+				
+				<!-- INÍCIO DO FORMULÁRIO DE BUSCA -->
+				<table class="formulario" width="40%">
+					<caption>Consulta</caption>
+					<tbody>
+						<tr>
+							<th width="50%" align="right"> 
+								Ano . 
+								Período:
+							</th>
+							<td align="left">
+								<input id="form:id" type="hidden" name="form:id" value="74268"><input id="form:lc" type="hidden" name="form:lc" value="pt_BR"><input id="form:inputAno" type="text" name="form:inputAno" value="2023" maxlength="4" onkeyup="return formatarInteiro(this,event);" size="4">   
+								
+ 								 .
+ 								
+ 								<select id="form:inputPeriodo" name="form:inputPeriodo" size="1">	<option value="1">1</option>
+	<option value="2" selected="selected">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+</select>&nbsp;
+							</td>
+						</tr>
+					</tbody>	
+					<tfoot>
+						<tr>
+							<td colspan="2">
+							<input type="hidden" name="form:j_id_jsp_222959501_37" value="pt_BR"><input type="hidden" name="form:j_id_jsp_222959501_38" value="74268"><input type="submit" name="form:j_id_jsp_222959501_39" value="Buscar">
+							
+							
+							</td>
+						</tr>
+					</tfoot>	
+				</table>
+				<!-- FIM DO FORMULÁRIO DE BUSCA -->
+				
+				<!-- INÍCIO DA LISTAGEM -->
+				<br clear="all">
+				
+				
+					
+					<div id="turmasAbertas">
+					
+
+					
+
+							
+		
+								
+								
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var p = document.createElement("input");p.type = "hidden";p.name = k;p.value = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40':'form:j_id_jsp_222959501_40','id':'97590','publico':'public'},'');}return false">DMAT/CCN034 - ÁLGEBRA LINEAR</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2801433" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												JOAO CARLOS DE OLIVEIRA SOUZA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									50
+								</td>
+								
+								<td class="horario"> 24M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_1':'form:j_id_jsp_222959501_40j_id_1','id':'97641','publico':'public'},'');}return false">DC/CCN031 - ARQUITETURA DE COMPUTADORES</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1177449" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												IVAN SARAIVA SILVA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_2':'form:j_id_jsp_222959501_40j_id_2','id':'97600','publico':'public'},'');}return false">DC/CCN025 - BANCO DE DADOS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2301250" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												FLAVIO FERRY DE OLIVEIRA MOREIRA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_3':'form:j_id_jsp_222959501_40j_id_3','id':'97679','publico':'public'},'');}return false">DC/CCN045 - BANCOS DE DADOS RELACIONAIS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1305000" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												LUIZ CLAUDIO DEMES DA MATA SOUSA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_4':'form:j_id_jsp_222959501_40j_id_4','id':'97549','publico':'public'},'');}return false">DMAT/CCN032 - CÁLCULO DIFERENCIAL E INTEGRAL I</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1858579" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												JOSE FRANCISCO ALVES DE OLIVEIRA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									50
+								</td>
+								
+								<td class="horario"> 24M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_5':'form:j_id_jsp_222959501_40j_id_5','id':'97557','publico':'public'},'');}return false">DMAT/CCN033 - CÁLCULO DIFERENCIAL E INTEGRAL II</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1167711" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												DOMINGOS SAVIO MACEDO MENDES
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									50
+								</td>
+								
+								<td class="horario"> 24M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_6':'form:j_id_jsp_222959501_40j_id_6','id':'97639','publico':'public'},'');}return false">DC/CCN029 - CIRCUITOS DIGITAIS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1285226" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ANTONIO HELSON MINEIRO SOARES
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_7':'form:j_id_jsp_222959501_40j_id_7','id':'97672','publico':'public'},'');}return false">DC/CCN042 - COMPILADORES</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2547255" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												CARLOS ANDRE BATISTA DE CARVALHO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_8':'form:j_id_jsp_222959501_40j_id_8','id':'97642','publico':'public'},'');}return false">DC/CCN032 - COMPUTAÇÃO GRÁFICA</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1642492" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												LAURINDO DE SOUSA BRITTO NETO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_9':'form:j_id_jsp_222959501_40j_id_9','id':'25921','publico':'public'},'');}return false">DBI0057 - EDUCAÇÃO AMBIENTAL, TECNOLOGIA E SOCIEDADE</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1151308" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												DAVI LIMA PANTOJA LEITE
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									36
+								</td>
+								
+								<td class="horario"> 4T56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_10':'form:j_id_jsp_222959501_40j_id_10','id':'97685','publico':'public'},'');}return false">DFIS/CCN020 - ELETRICIDADE E MAGNETISMO</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=0" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									30
+								</td>
+								
+								<td class="horario"> 24M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_11':'form:j_id_jsp_222959501_40j_id_11','id':'97669','publico':'public'},'');}return false">DC/CCN039 - ENGENHARIA DE SOFTWARE I</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2167802" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												PEDRO DE ALCANTARA DOS SANTOS NETO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_12':'form:j_id_jsp_222959501_40j_id_12','id':'97677','publico':'public'},'');}return false">DC/CCN044 - ENGENHARIA DE SOFTWARE II</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1886865" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ARMANDO SOARES SOUSA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_13':'form:j_id_jsp_222959501_40j_id_13','id':'97681','publico':'public'},'');}return false">DC/CCN047 - ESTÁGIO SUPERVISIONADO</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1632612" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ANDRE CASTELO BRANCO SOARES
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 6T34  23456N1234</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_14':'form:j_id_jsp_222959501_40j_id_14','id':'97586','publico':'public'},'');}return false">DC/CCN022 - ESTRUTURAS DE DADOS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1226761" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												RAIMUNDO SANTOS MOURA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_15':'form:j_id_jsp_222959501_40j_id_15','id':'97723','publico':'public'},'');}return false">DC/CCN055 - FLUXOS EM REDES</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=342807" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ANTONIO COSTA DE OLIVEIRA
+											</a>
+											
+											
+										
+									
+										
+										, 
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2061294" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												RICARDO DE ANDRADE LIRA RABELO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									20
+								</td>
+								
+								<td class="horario"> 35T56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_16':'form:j_id_jsp_222959501_40j_id_16','id':'97567','publico':'public'},'');}return false">DC/CCN021 - INFORMÁTICA E SOCIEDADE</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=423318" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												MAGNO ALVES DOS SANTOS
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_17':'form:j_id_jsp_222959501_40j_id_17','id':'97561','publico':'public'},'');}return false">CLE/CCHL002 - INGLÊS TÉCNICO E CIENTÍFICO</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1320112" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												JULIANA CASTELO BRANCO PAZ DA SILVA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35T56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_18':'form:j_id_jsp_222959501_40j_id_18','id':'97671','publico':'public'},'');}return false">DC/CCN041 - INTELIGÊNCIA ARTIFICIAL</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1446435" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												VINICIUS PONTE MACHADO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_19':'form:j_id_jsp_222959501_40j_id_19','id':'97602','publico':'public'},'');}return false">DC/CCN027 - INTERFACE HUMANO COMPUTADOR</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=3209654" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												JOSE RODRIGUES TORRES NETO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_20':'form:j_id_jsp_222959501_40j_id_20','id':'97550','publico':'public'},'');}return false">DC/CCN019 - INTRODUÇÃO À LÓGICA</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1579396" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												RODRIGO DE MELO SOUZA VERAS
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									45
+								</td>
+								
+								<td class="horario"> 35M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_21':'form:j_id_jsp_222959501_40j_id_21','id':'97566','publico':'public'},'');}return false">DFIL/CCHL009 - INTRODUÇÃO À METODOLOGIA CIENTÍFICA</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1351980" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												AMADEU MATIAS BERNARDES FILHO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_22':'form:j_id_jsp_222959501_40j_id_22','id':'97588','publico':'public'},'');}return false">DC/CCN024 - LABORATÓRIO DE PROGRAMAÇÃO</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1886865" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ARMANDO SOARES SOUSA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									20
+								</td>
+								
+								<td class="horario"> 35T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">02</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1886865" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ARMANDO SOARES SOUSA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									20
+								</td>
+								
+								<td class="horario"> 24T56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_23':'form:j_id_jsp_222959501_40j_id_23','id':'56354','publico':'public'},'');}return false">LIBRAS009 - LIBRAS- LINGUA BRASILEIRA DE SINAIS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2229924" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												LUIZ CLAUDIO NOBREGA AYRES
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									30
+								</td>
+								
+								<td class="horario"> 24M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_24':'form:j_id_jsp_222959501_40j_id_24','id':'97674','publico':'public'},'');}return false">DC/CCN043 - LINGUAGENS DE PROGRAMAÇÃO</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2508671" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ROSIANNI DE OLIVEIRA CRUZ
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_25':'form:j_id_jsp_222959501_40j_id_25','id':'97640','publico':'public'},'');}return false">DMAT/CCN035 - MATEMÁTICA DISCRETA</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1331064" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ISAIAS PEREIRA DE JESUS
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									50
+								</td>
+								
+								<td class="horario"> 24T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_26':'form:j_id_jsp_222959501_40j_id_26','id':'97718','publico':'public'},'');}return false">DMAT/CCN039 - MÉTODOS NUMÉRICOS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=0" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									25
+								</td>
+								
+								<td class="horario"> 24T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_27':'form:j_id_jsp_222959501_40j_id_27','id':'24956','publico':'public'},'');}return false">DEF0073 - PRÁTICA DESPORTIVA I</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">03</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=3335157" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												RAQUEL MARIA DE JESUS SOUZA CUNHA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									25
+								</td>
+								
+								<td class="horario"> 24M2</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_28':'form:j_id_jsp_222959501_40j_id_28','id':'97598','publico':'public'},'');}return false">CGBEST/CCN013 - PROBABILIDADE E ESTATÍSTICA</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1714012" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												RITA DE CASSIA DE LIMA IDALINO
+											</a>
+											
+											
+										
+									
+										
+										, 
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1387424" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												RENATO SANTOS DA SILVA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24T56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_29':'form:j_id_jsp_222959501_40j_id_29','id':'97647','publico':'public'},'');}return false">DC/CCN037 - PROCESSAMENTO DIGITAL DE IMAGENS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1350246" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												KELSON ROMULO TEIXEIRA AIRES
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_30':'form:j_id_jsp_222959501_40j_id_30','id':'97601','publico':'public'},'');}return false">DC/CCN026 - PROGRAMAÇÃO ESTRUTURADA</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2508671" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ROSIANNI DE OLIVEIRA CRUZ
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									25
+								</td>
+								
+								<td class="horario"> 35M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">02</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2508671" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ROSIANNI DE OLIVEIRA CRUZ
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									25
+								</td>
+								
+								<td class="horario"> 36M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_31':'form:j_id_jsp_222959501_40j_id_31','id':'97682','publico':'public'},'');}return false">DC/CCN048 - PROGRAMAÇÃO FUNCIONAL</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1285226" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ANTONIO HELSON MINEIRO SOARES
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_32':'form:j_id_jsp_222959501_40j_id_32','id':'97644','publico':'public'},'');}return false">DC/CCN034 - PROGRAMAÇÃO LINEAR</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=342807" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ANTONIO COSTA DE OLIVEIRA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_33':'form:j_id_jsp_222959501_40j_id_33','id':'97587','publico':'public'},'');}return false">DC/CCN023 - PROGRAMAÇÃO ORIENTADA A OBJETOS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2167802" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												PEDRO DE ALCANTARA DOS SANTOS NETO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_34':'form:j_id_jsp_222959501_40j_id_34','id':'97646','publico':'public'},'');}return false">DC/CCN036 - PROJETO E ANÁLISE DE ALGORITMOS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1744590" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												GUILHERME AMARAL AVELINO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_35':'form:j_id_jsp_222959501_40j_id_35','id':'97645','publico':'public'},'');}return false">DC/CCN035 - REDES DE COMPUTADORES</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1632612" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ANDRE CASTELO BRANCO SOARES
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_36':'form:j_id_jsp_222959501_40j_id_36','id':'97725','publico':'public'},'');}return false">DC/CCN057 - REDES NEURAIS ARTIFICIAIS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2061294" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												RICARDO DE ANDRADE LIRA RABELO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									50
+								</td>
+								
+								<td class="horario"> 35M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_37':'form:j_id_jsp_222959501_40j_id_37','id':'97670','publico':'public'},'');}return false">DC/CCN040 - SEGURANÇA EM SISTEMAS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2547255" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												CARLOS ANDRE BATISTA DE CARVALHO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_38':'form:j_id_jsp_222959501_40j_id_38','id':'97551','publico':'public'},'');}return false">DC/CCN020 - SEMINÁRIOS DE INTRODUÇÃO AO CURSO</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1642492" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												LAURINDO DE SOUSA BRITTO NETO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 6M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_39':'form:j_id_jsp_222959501_40j_id_39','id':'97666','publico':'public'},'');}return false">DC/CCN038 - SISTEMAS DISTRIBUÍDOS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=3209654" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												JOSE RODRIGUES TORRES NETO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 24M34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_40':'form:j_id_jsp_222959501_40j_id_40','id':'97726','publico':'public'},'');}return false">DC/CCN058 - SISTEMAS EMBARCADOS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1285226" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ANTONIO HELSON MINEIRO SOARES
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									30
+								</td>
+								
+								<td class="horario"> 24M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_41':'form:j_id_jsp_222959501_40j_id_41','id':'97643','publico':'public'},'');}return false">DC/CCN033 - SISTEMAS OPERACIONAIS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=3209654" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												JOSE RODRIGUES TORRES NETO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_42':'form:j_id_jsp_222959501_40j_id_42','id':'97668','publico':'public'},'');}return false">DC/CCN030 - TEORIA DA COMPUTAÇÃO</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2508671" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ROSIANNI DE OLIVEIRA CRUZ
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_43':'form:j_id_jsp_222959501_40j_id_43','id':'97603','publico':'public'},'');}return false">DC/CCN028 - TEORIA E APLICAÇÕES EM GRAFOS</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=342807" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ANTONIO COSTA DE OLIVEIRA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 35M56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_44':'form:j_id_jsp_222959501_40j_id_44','id':'97737','publico':'public'},'');}return false">DC/CCN068 - TÓPICOS DEM ARQUITETURA DE COMPUTADORES</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1177449" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												IVAN SARAIVA SILVA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									30
+								</td>
+								
+								<td class="horario"> 35T56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_45':'form:j_id_jsp_222959501_40j_id_45','id':'97736','publico':'public'},'');}return false">DC/CCN067 - TÓPICOS EM BIOINFORMÁTICA</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1305000" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												LUIZ CLAUDIO DEMES DA MATA SOUSA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									30
+								</td>
+								
+								<td class="horario"> 35T56</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_46':'form:j_id_jsp_222959501_40j_id_46','id':'97762','publico':'public'},'');}return false">DC/CCN071 - TÓPICOS EM ENGENHARIA DE SOFTWARE</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1744590" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												GUILHERME AMARAL AVELINO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									10
+								</td>
+								
+								<td class="horario"> 35T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_47':'form:j_id_jsp_222959501_40j_id_47','id':'97765','publico':'public'},'');}return false">DC/CCN074 - TÓPICOS EM REDES DE COMPUTADORES</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2619458" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ERICO MENESES LEAO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									36
+								</td>
+								
+								<td class="horario"> 35T34</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_48':'form:j_id_jsp_222959501_40j_id_48','id':'97683','publico':'public'},'');}return false">DC/CCN049 - TRABALHO DE CONCLUSÃO DE CURSO II - TCC II</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1642492" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												LAURINDO DE SOUSA BRITTO NETO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									3
+								</td>
+								
+								<td class="horario"> 6M56  6T12</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">02</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2619458" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ERICO MENESES LEAO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									5
+								</td>
+								
+								<td class="horario"> 6T3456</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">03</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2167802" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												PEDRO DE ALCANTARA DOS SANTOS NETO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									3
+								</td>
+								
+								<td class="horario"> 6M3456</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">04</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2301250" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												FLAVIO FERRY DE OLIVEIRA MOREIRA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									2
+								</td>
+								
+								<td class="horario"> 6M3456</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">05</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1886865" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ARMANDO SOARES SOUSA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									2
+								</td>
+								
+								<td class="horario"> 6M3456</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">06</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=342807" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ANTONIO COSTA DE OLIVEIRA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									2
+								</td>
+								
+								<td class="horario"> 6M3456</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">07</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1446435" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												VINICIUS PONTE MACHADO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									3
+								</td>
+								
+								<td class="horario"> 6M3456</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">08</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1226761" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												RAIMUNDO SANTOS MOURA
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									3
+								</td>
+								
+								<td class="horario"> 6M3456</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">09</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1744590" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												GUILHERME AMARAL AVELINO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									5
+								</td>
+								
+								<td class="horario"> 6M3456</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+								
+							<tr class="linhaImpar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">10</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=1285226" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ANTONIO HELSON MINEIRO SOARES
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									2
+								</td>
+								
+								<td class="horario"> 6M3456</td>
+							</tr>
+							
+						  
+						  
+					
+
+							
+		
+								</tbody>
+								</table>
+								<table class="listagem">
+									<thead>
+										<tr>
+											<td colspan="5" class="subListagem">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('form'),{'form:j_id_jsp_222959501_40j_id_49':'form:j_id_jsp_222959501_40j_id_49','id':'97680','publico':'public'},'');}return false">DC/CCN046 - TRABALHO DE CONCLUSÃO DE CURSO I - TCC I</a>
+											</td>
+										</tr>	
+										<tr>
+											<th width="90px" class="anoPeriodo">
+												Período/
+												Ano
+											</th>
+											<th width="90px" class="anoPeriodo">Turma</th>
+											<th width="330px">Docente</th>
+											
+											<th width="110px" class="colVagas">Vgs Reservadas</th>
+											
+											<th width="65px">Horários</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+							
+								
+							<tr class="linhaPar">
+								<td class="anoPeriodo"> 2023.2</td>
+								<td align="center">01</td>
+								<td class="nome">
+								
+									
+										
+										
+										
+											
+											<a href="/sigaa/public/docente/portal.jsf?siape=2619458" target="_blank" title="Clique aqui para acessar a página pública deste docente">
+												ERICO MENESES LEAO
+											</a>
+											
+											
+										
+									
+								</td>
+								
+								<td class="colVagas">
+									40
+								</td>
+								
+								<td class="horario"> 6M3456</td>
+							</tr>
+							
+						  
+						  
+					
+			
+					</tbody>
+					
+					<tfoot>
+						<tr>
+							<td colspan="5" align="center">
+								<b>
+									61 
+									Turmas&nbsp;
+									Disponíveis
+								</b>
+							</td>
+						</tr>
+					</tfoot>
+					
+				</table>
+
+				</div>	
+				
+				<!-- FIM DA LISTAGEM -->
+		<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id2">
+</form>
+		<!--  FIM CONTEÚDO  -->	
+		</div>
+	</div>
+	
+	
+
+
+	<div class="clear"></div>
+	</div>
+
+	<div id="rodape">
+		<p>	
+			SIGAA | Superintendência de Tecnologia da Informação - STI/UFPI - (86) 3215-1124 | sigjb05.ufpi.br.instancia1
+			 
+				<a onclick="javascript:versao();">vSIGAA_3.12.961</a>
+			
+			<span style="font-size: 6pt;">29/08/2023 01:16</span>
+		</p>
+	</div>
+
+	<!-- Fim dos containers -->
+	</div>
+	
+<!-- MYFACES JAVASCRIPT -->
+
+
+
+
+
+ 
+	<script type="text/javascript" charset="UTF-8">
+		function versao(){
+			var msg='';
+			msg+='iProject SIGAA_3.12.961,  publicado em: 28/08/2023 22:31\n\n';
+			msg+='Depend\u00eancias:\n';
+			msg+='Arquitetura 2.5.40\n';
+			msg+='Entidades Comuns 1.2.44\n';
+			msg+='Servicos Integrados 1.3.12\n\n';
+			msg+='Shared Resources 1.9.12\n';
+			msg+='STI/UFPI';
+			alert(msg);
+		}	
+	</script>
+	<script src="../dsgov/dsgov.js"></script>
+</body></html>

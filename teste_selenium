@@ -1,0 +1,34 @@
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from bs4 import BeautifulSoup
+import time
+
+# Configurações para executar em modo headless
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # Ativa o modo headless
+
+# Inicializa o driver do navegador em modo headless
+driver = webdriver.Chrome(options=chrome_options)
+
+# Abre a página da web
+driver.get('https://sigaa.ufpi.br/sigaa/public/curso/turmas.jsf?lc=pt_BR&id=74268')
+
+# Encontra e clica no botão de busca pelo atributo "name"
+botao_buscar = driver.find_element(By.NAME, 'form:j_id_jsp_222959501_39')
+botao_buscar.click()
+
+# Aguarda alguns segundos para carregar os resultados
+time.sleep(5)
+
+# Obtém o conteúdo HTML da página após o clique no botão
+pagina_resultado = driver.page_source
+
+# Fecha o navegador
+driver.quit()
+
+# Salva o conteúdo HTML em um arquivo
+with open('pagina_resultado.html', 'w', encoding='utf-8') as arquivo:
+    arquivo.write(pagina_resultado)
+
+print("Página HTML salva com sucesso.")
